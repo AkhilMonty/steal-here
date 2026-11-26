@@ -197,19 +197,25 @@ Install the following development tools:
 ### 1. Clone the Repository
 
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+```bash
+git clone https://github.com/AkhilMonty/steal-here.git
+```
 
 
 ### 2. Open the Project
 
 
-cd steal_here
+```bash
+cd steal-here
+```
 
 
 ### 3. Install Dependencies
 
 
+```bash
 flutter pub get
+```
 
 
 ### 4. Configure Supabase
@@ -223,94 +229,71 @@ Never commit private keys, service-role credentials, or signing credentials.
 ### 5. Run the Application
 
 
+```bash
 flutter run
+```
 
 
 ### 6. Build the Android Release APK
 
+```bash
 flutter build apk --release --target-platform android-arm64
+```
 
 The generated APK will be available at:
 
 build/app/outputs/flutter-apk/app-release.apk
 
-📦 Android Release
+## 📦 Android Release
 
-Property
+| Property | Value |
+|---|---|
+| Application Name | Steal Here |
+| Package ID | `com.stealhere.app` |
+| Version | 1.0.0 |
+| Build Number | 1 |
+| Platform | Android |
+| Architecture | ARM64 |
+| Payment Method | Cash on Delivery |
 
-Value
+**Release APK:** `Steal_Here_v1.0.0_Android_Release.apk`
 
-Application Name
+**Generated APK location:**
 
-Steal Here
-
-Package ID
-
-com.stealhere.app
-
-Version
-
-1.0.0
-
-Build Number
-
-1
-
-Platform
-
-Android
-
-Architecture
-
-ARM64
-
-Payment Method
-
-Cash on Delivery
-
-Release APK: Steal_Here_v1.0.0_Android_Release.apk
-
-🎯 Project Objectives
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
+## 🎯 Project Objectives
 
 Steal Here was developed to explore how modern mobile technologies can improve the online shopping experience.
 
 Its primary objectives are:
 
-Provide a convenient e-commerce shopping experience.
+- Provide a convenient e-commerce shopping experience.
+- Help customers make informed purchasing decisions.
+- Encourage responsible spending through budget tracking.
+- Reduce unnecessary purchases and impulse buying.
+- Provide product comparison and shopping assistance.
+- Implement a complete customer-facing order lifecycle.
 
-Help customers make informed purchasing decisions.
-
-Encourage responsible spending through budget tracking.
-
-Reduce unnecessary purchases and impulse buying.
-
-Provide product comparison and shopping assistance.
-
-Implement a complete customer-facing order lifecycle.
-
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Potential future improvements include:
 
-Dedicated administration application.
+- Dedicated administration application.
+- Advanced recommendation algorithms.
+- More detailed purchase analytics.
+- Enhanced shopping personalization.
+- Additional product discovery features.
+- Further performance and security improvements.
 
-Advanced recommendation algorithms.
-
-More detailed purchase analytics.
-
-Enhanced shopping personalization.
-
-Additional product discovery features.
-
-Further performance and security improvements.
-
-👨‍💻 Developer
+## 👨‍💻 Developer
 
 Developed as a Software Development Portfolio Project
 
 Steal Here demonstrates practical experience with Flutter application development, Dart programming, Supabase integration, PostgreSQL database management, authentication, state management, and real-world e-commerce workflows.
 
-📄 License
+## 📄 License
 
 This project is currently developed as a personal portfolio project.
 
