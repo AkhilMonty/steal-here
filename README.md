@@ -179,9 +179,6 @@ The application communicates with Supabase through its Flutter client.
 ### Purchase Insights
 ![Purchase Insights](screenshots/purchase-insights.png)
 
-### Profile
-![Profile](screenshots/profile.png)
-
 ## 🚀 Getting Started
 
 ### Prerequisites
