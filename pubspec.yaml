@@ -1,0 +1,58 @@
+name: steal_here
+description: "Steal Here - Smart E-Commerce Platform"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Backend
+  supabase_flutter: ^2.18.3
+
+  # State management
+  provider: ^6.1.5+1
+
+  # Navigation
+  go_router: ^18.0.2
+
+  # Fonts
+  google_fonts: ^9.0.0
+
+  # Images / Media
+  cached_network_image: ^4.0.4
+  image_picker: ^1.2.3
+
+  # UI components
+  carousel_slider: ^5.1.2
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^4.0.0
+  lottie: ^3.6.1
+
+  # Utilities
+  intl: ^0.20.3
+  fluttertoast: ^10.0.0
+  shared_preferences: ^2.5.6
+
+  # Icons
+  iconsax_flutter: ^1.0.1
+  app_links: ^7.2.2
+  intl_phone_field: ^3.2.0
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
